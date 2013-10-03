@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+Anant Robinson
+robana07
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 1
@@ -12,32 +12,34 @@
 import math                     # makes the math.sqrt function available
 
 
-###
-### Problem 1
-###
-
 print "Problem 1 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+a=1
+b=-5.86
+c=8.5408
 
+xone =((-b+ math.sqrt((b**2)-(4*a*c)))/(2*a))
+xtwo =((-b- math.sqrt((b**2)-(4*a*c)))/(2*a))
 
-###
+print (xone,xtwo)
 ### Problem 2
 ###
 
 print "Problem 2 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+import hw1_test
 
-
-###
-### Problem 3
-###
+print str(hw1_test.a)
+print str(hw1_test.b)
+print str(hw1_test.c)
+print str(hw1_test.d)
+print str(hw1_test.e)
+print str(hw1_test.f)
 
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
 
+print str((hw1_test.a and hw1_test.b) or (not hw1_test.c) and not (hw1_test.d or hw1_test.e or hw1_test.f))
 
 ###
 ### Collaboration
