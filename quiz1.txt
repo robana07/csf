@@ -1,0 +1,6 @@
+Import lab2
+
+x = n
+
+While (x<n):
+print "Hello World"
