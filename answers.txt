@@ -1,0 +1,43 @@
+Name: Anant Robinson
+Evergreen Login: robana07
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 3 
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+
+smaple one   GC-content: 0.43029262963
+sample two   GC-content: 0.451051333333
+sample three GC-content: 0.646864112524
+sample four  GC-content: 0.347852341166
+sample five  GC-content: 0.263157894737
+sample six   GC-content: 0.491518518519
+
+Problem 3:
+
+Program won't run because then there won't be any variables set. Same thing happens for gc_count = 0 because there will be no starting point.
+
+Problem 4:
+
+AT-content: 0.568993851852
+
+Collaboration:
+
+rawjor18, am0k. Looked at some parts that I was stuck to understand how I should be modifying the program.
+
+Reflection:
+
+I thought this looked very challenging and I was afraid I wouldn't know how to do it. It looks really complicated and I didn't fully understand what we had to do with DNA analysis. After working through it, I realized that it was just something that looks complicated but we were asked to do something that wasn't so much so. A beginner like me would probably be nervous doing these things. But once I understood what we really had to do, I managed to understand the instructions and followed it. I had to look up some people's work to understand how and why to program it that way. It was very helpful and I have a much better understanding of it now.
