@@ -41,3 +41,30 @@ rawjor18, am0k. Looked at some parts that I was stuck to understand how I should
 Reflection:
 
 I thought this looked very challenging and I was afraid I wouldn't know how to do it. It looks really complicated and I didn't fully understand what we had to do with DNA analysis. After working through it, I realized that it was just something that looks complicated but we were asked to do something that wasn't so much so. A beginner like me would probably be nervous doing these things. But once I understood what we really had to do, I managed to understand the instructions and followed it. I had to look up some people's work to understand how and why to program it that way. It was very helpful and I have a much better understanding of it now.
+
+Problem 5:
+GC-content: 0.43029262963
+AT-content: 0.284496925926
+A count: 0.095077617284
+T count: 0.0.94587
+G count: 0.0725818271605
+C count: 0.0708490493827
+
+Problem 6: The metric sum count for all except test-small.fastq was off. This was because there are N's included in the strands.
+
+Problem 7:
+
+AT/GC ratio: 1.32234161747
+
+Problems 8:
+
+moderate GC content
+
+Collaboration:
+
+Looked at karmar19,rawjor18,crohun22 to compare programs and answer to see if I was doing it correctly.
+
+Reflection:
+
+This was a fun add-on to homework 3. It was challenging and I'm concerned about the fact that of the people's work I look at, our answers are quite different although our methods are quite similar. This was still a good lab to help us understand the work.
+

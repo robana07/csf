@@ -56,6 +56,11 @@ gc_count = 0
 
 at_count = 0
 
+a_count = 0
+t_count = 0
+c_count = 0
+g_count = 0
+
 # for each base pair in the string,
 for bp in seq:
     # increment the total number of bps we've seen
@@ -82,3 +87,54 @@ for bp in seq:
 at_content = float(at_count) / total_count
 
 print 'AT-content:', at_content
+
+for bp in seq:
+    total_count = total_count + 1
+    
+# if the bp is an a A,T,C,or G nucleotide,
+    if bp == 'A':
+# increment the count of A,T,C,G
+        a_count = a_count + 1
+
+    elif bp == 'T':
+ 
+        t_count = t_count + 1
+   
+    elif bp == 'C':
+     
+        c_count = c_count + 1
+ 
+    elif bp == 'G':
+        
+        g_count = g_count + 1
+        
+#divide the different counts by total amount
+a_content = float(a_count) / total_count
+
+t_content = float(t_count) / total_count
+
+c_content = float(c_count) / total_count
+
+g_content = float(g_count) / total_count
+
+#atgc ratio
+atgc_ratio = float(at_count)/ gc_count
+
+#Categorize content
+if gc_content > .6:
+    category = "high GC content"
+elif gc_content < .4:
+    category = "low GC content"
+else:
+    category = "moderate GC content"
+
+#print answers
+
+print 'A count:', a_content
+print 'T count:', t_content
+print 'C count:', c_content
+print 'G count:', g_content
+print 'The sum of the a,c, t, g is ', total_count
+print 'The total length is ', len(seq)
+print 'AT/GC ratio:', atgc_ratio
+print 'GC Category:', category
