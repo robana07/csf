@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Name: Anant Robinson
+# Evergreen Login: robana07
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 6
@@ -25,20 +25,21 @@ print ages
 ###
 ### Problem 4
 ###
-def date_of_birth(name):
-    dob = 2013 - name
+def date_of_birth(age):
+    dob = 2013 - age
     print "She was born in " + str(dob) + "."
-    print ages
     
 #What would you put in this line to call the function date_of_birth to find out
 #Mary's birth year?
 
-date_of_birth(Mary)
+
+
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
 
+age = 21
 # ... write your code and comments here (and remove this line)
-
+date_of_birth(ages['Mary'])
 
 ###
 ### Problem 5
@@ -47,7 +48,18 @@ print "Problem 4 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+# It allows you to check a valid input. It can sort out values you don't want.
+
+def AreYouABro(names):
+    assert (names >= 1), "Not a Bro"
+    return (names == 1), "Bro"
+
+
+Nicholas = 1
+Paul = 
+Kim_Kardashian = 0
+print AreYouABro(Nicholas)
+
 
 ###
 ### Problem 6
@@ -56,7 +68,7 @@ print "Problem 5 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+mygroupage = {'Anant' : '20', "Alex": '21'}
 
 ###
 ### Problem 7
