@@ -36,7 +36,8 @@ print "Problem 4 solution follows:"
 
 ###
 ### Problem 5
-###
+###Write Python code creating one of each type of data structure, using the correct kind of grouping symbol (square brackets, curly braces, parentheses, and curly braces with colons inside). 
+
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
