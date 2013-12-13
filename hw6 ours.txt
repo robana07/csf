@@ -21,18 +21,12 @@ Lead Singers = {'Freddy Mercury' : Queen, 'Kurt Cobain' : Nirvana, 'Mark Knopfle
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
-
-
 ###
 ### Problem 4 (Assertions)
 ### Let's set these legendary singers to equal to 1. Now let's add Justin Bieber and have him equal to 0. Assert a statement that returns a value that is less than 1 that will say "Not a legendary singer, but a whiny little bitch" Print out each of the singers and the statement should either be that, or "Bloody amazing, have my babies?"
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
-
-# ... write your code and comments here (and remove this line)
-
 
 ###
 ### Problem 5
@@ -42,16 +36,12 @@ print "Problem 4 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
 
-# ... write your code and comments here (and remove this line)
-
 ###
 ### Problem 6
 ###
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
-
-# ... write your code and comments here (and remove this line)
 
 ###
 ### Problem 7
@@ -61,8 +51,6 @@ Print Dead
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 7 solution follows:"
-
-# ... write your code and comments here (and remove this line)
 
 ###
 ### Collaboration
